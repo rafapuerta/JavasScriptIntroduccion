@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <script>
+let distancia = parseInt(window.prompt('Introduce la distancia en metros:'))
+let tiempoH = parseInt(window.prompt('Introduce el tiempo tardado (horas:'))
+let tiempoM = parseInt(window.prompt('Introduce el tiempo tardado (minutos:'))
+let tiempoS = parseInt(window.prompt('Introduce el tiempo tardado (segundos:'))
+let totalS = ((tiempoH*3600)+(tiempoM*60)+tiempoS)
+console.log(totalS)
+console.log(distancia/totalS + 'm/s')
+console.log((distancia/1000)/(totalS/3600) + 'Km/h')
+    </script>
+</body>
+</html>
