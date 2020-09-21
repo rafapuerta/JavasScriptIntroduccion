@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios</title>
+</head>
+<body>
+    <script>
+let num = window.prompt('Introduce un número de minutos:')
+let años = parseInt(num/525600)
+num = num - (años*525600)
+let dias = parseInt(num/1440)
+num = num - (dias*1440)
+/*
+console.log(años)
+console.log(dias)
+console.log(num)
+*/
+console.log(años + ' años y ' + dias + ' días')
+</script>
+</body>
+</html>
